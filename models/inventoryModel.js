@@ -15,9 +15,9 @@ const inventorySchema = new mongoose.Schema({
         type: Number,
         required: [true, 'Please enter the quantity']
     },
-    donarEmail:{
-        type:String,
-        required:[true,"Donar Email is required"],
+    donarEmail: {
+        type: String,
+        required: [true, "Donar Email is required"],
     },
     organisation: {
         type: mongoose.Schema.Types.ObjectId,
@@ -38,5 +38,8 @@ const inventorySchema = new mongoose.Schema({
         //     return this.inventoryType === 'in';
         // }
     }
-}, Timestamps = true); //timestamps is used to store the time when the data is created and updated
+}, Timestamps = true);
+//timestamps is used to store the time when the data is created and updated
+
+
 module.exports = mongoose.model('inventory', inventorySchema);
