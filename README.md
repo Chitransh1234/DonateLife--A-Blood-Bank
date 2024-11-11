@@ -2,10 +2,13 @@ DonateLife - A Blood Bank Platform
 Overview
 DonateLife is a full-stack blood bank management application designed to connect blood donors with recipients. It streamlines the process of blood donation by providing an intuitive interface for users to register as donors, search for blood groups, and request donations. This platform is built using the MERN stack (MongoDB, Express.js, React, Node.js).
 
-Features
+Features:-
 Donor Registration: Allows users to register as blood donors with their details and blood group.
+
 Recipient Search: Enables users to search for available blood groups and contact potential donors.
+
 Blood Requests: Facilitates users in raising requests for required blood types.
+
 Admin Dashboard: Manages users, donation requests, and ensures data security and system integrity.
 User Authentication: Secure user login and registration with password encryption.
 Real-Time Notifications: Notifies donors and recipients of matched requests.
