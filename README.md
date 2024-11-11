@@ -57,9 +57,8 @@ npm run server
 npm start
 Open http://localhost:3000 to view the app in the browser.
 
-Project Structure
-plaintext
-Copy code
+Project Structure:-
+
 DonateLife/
 ├── backend/
 │   ├── config/
@@ -73,6 +72,7 @@ DonateLife/
 │   ├── src/
 │   └── .env
 └── README.md
+
 
 Contributions:-
 
